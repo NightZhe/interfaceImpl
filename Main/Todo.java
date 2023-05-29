@@ -13,5 +13,11 @@ public class Todo {
         //把DogImpl new 出來使用來去使用overrider voice()
         DogImpl dog = new DogImpl();
         dog.voice();
+        
+        CatchString.main(args); // 會去呼叫 CatchString 的 Main 方法
+        CatchString cs = new CatchString(); //把 CatchString  New出來的使用
+        cs.outmainfunction(); 
     }
+    
 }
+
