@@ -4,4 +4,5 @@ package Interface;
 
 public interface Animal {
     public void voice();
+    public void init(String color ,String tpye);
 }
